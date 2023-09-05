@@ -45,5 +45,10 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - ```vncserver -localhost no``` any password
 - open vnc
 - open you server
-# shutdown
+# Shutdown
 - ```vncserver -kill :1```
+
+# Authors
+- TypedQue (team)
+- [@SynthouS](https://youtube.com/SynthouS)
+- @Merryweath
