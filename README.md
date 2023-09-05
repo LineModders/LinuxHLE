@@ -1,7 +1,7 @@
 # LinuxHLE
 ![App Screenshot](Assets/LinuxHLE.png)
 A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCserver!
-![Screenshot](Assets/ScreenLinux.png)
+![Screenshot](Assets/ScreenLinuxHLE.png)
 
 # Req
 - 4 gb
