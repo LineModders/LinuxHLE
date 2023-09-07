@@ -18,7 +18,6 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - check file ```ls``` if you see file ubuntu.sh - ok
 - bashing ```bash ubuntu.sh```
 - ```ls``` if you see 2 new folders - ok
-- changing ```nano startubuntu.sh```, and add command = ```command+=" -b /dev/null:/proc/sys/kernel/cap_last_cap"``` and save
 - starting ```./startubuntu.sh```
 - Ubuntu install, next, install vnc on Ubuntu
 - ```apt update```
