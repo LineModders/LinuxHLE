@@ -79,6 +79,7 @@ if [ -n "\$(ls -A ubuntu-binds)" ]; then
     done
 fi
 command+=" -b /dev"
+command+=" -b /dev/null:/proc/sys/kernel/cap_last_cap"
 command+=" -b /proc"
 command+=" -b /sys"
 command+=" -b ubuntu-fs/tmp:/dev/shm"
