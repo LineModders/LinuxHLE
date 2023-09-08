@@ -20,19 +20,15 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - ```apt install gnome-shell gnome-terminal nautilus gnome-tweaks gnome-shell-extension-ubuntu-dock light-themes suru-icon-theme gedit dbus-x11 tigervnc-standalone-server nano -y``` - installing gnome
 - create folder ```mkdir .vnc```
 - script ```nano .vnc/xstartup```
-- paste this texts -
-- ```#!/bin/bash``` enter
-- ```export XDG_CURRENT_DESKTOP="GNOME"``` enter
-- ```service dbus start``` enter
-- ```gnome-shell --x11``` done, save file
-- ```chmod +x .vnc/xstartup```
+- gnome starting script ```wget https://raw.githubusercontent.com/TypedQue/LinuxHLE/master/xstartuplh```
+- ```chmod +x xstartuplh```
 - start vnc ```vncserver -localhost no``` and enter any password
 - open vnc
 - click plus, in Addres write ```localhost:1```, in name write any name
 - done!
 # Startup
 - ```./startubuntu.sh```
-- ```chmod +x .vnc/xstartup```
+- ```chmod +x xstartuplh```
 - ```vncserver -localhost no``` any password
 - open vnc
 - open you server
