@@ -1,4 +1,0 @@
-#!/bin/bash enter
-export XDG_CURRENT_DESKTOP="GNOME"
-service dbus start
-gnome-shell --x11
