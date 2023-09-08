@@ -6,7 +6,7 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 # Req
 - 2 gb
 - termux
-- VNCserver
+- RealVNC
 
 # Installing
 - open termux
@@ -21,7 +21,7 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - gnome starting script ```wget https://raw.githubusercontent.com/TypedQue/LinuxHLE/master/xstartuplh```
 - ```chmod +x xstartuplh```
 - start vnc ```vncserver -localhost no``` and enter any password
-- open vnc
+- open RealVNC
 - click plus, in Addres write ```localhost:1```, in name write any name
 - done!
 # Startup
