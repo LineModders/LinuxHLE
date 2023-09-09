@@ -4,7 +4,7 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 ![Screenshot](Assets/ScreenLinuxHLE.png)
 
 # Req
-- 2 gb
+- 4 gb
 - termux
 - RealVNC
 
@@ -17,6 +17,7 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - starting ```./startubuntu.sh```
 - Ubuntu install, next, install vnc and gnome on Ubuntu
 - ```./startubuntu.sh```
+- ```apt update```
 - ```apt install gnome-shell gnome-terminal nautilus gnome-tweaks gnome-shell-extension-ubuntu-dock light-themes suru-icon-theme gedit dbus-x11 tigervnc-standalone-server nano -y``` - installing gnome
 - gnome starting script ```wget https://raw.githubusercontent.com/TypedQue/LinuxHLE/master/xstartuplh```
 - ```chmod +x xstartuplh```
