@@ -1,0 +1,4 @@
+#!/bin/bash enter
+xrdb $HOME/.Xresources
+service dbus start
+startxfce4 &
