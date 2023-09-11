@@ -1,4 +1,4 @@
 #!/bin/bash enter
-export XDG_CURRENT_DESKTOP="GNOME"
+export XDG_CURRENT_DESKTOP="XFCE"
 service dbus start
 xfce4-session &
