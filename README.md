@@ -6,8 +6,9 @@
 <p align="Center">
 <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
 </p>
+<p align="Center">
 A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCserver!
-![Screenshot](Assets/ScreenLinuxHLE.png)
+<img src="Assets/ScreenLinuxHLE.png" height="300" >
 
 # Req
 - 4 gb
