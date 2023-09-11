@@ -47,7 +47,8 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - done!
 # Startup
 - ```./startubuntu.sh```
-- ```chmod +x xstartuplh```
+- ```chmod +x xstartuplh``` - for gnome
+- ```chmod +x xstartupxfce4``` - for xfce4
 - ```vncserver -localhost no``` any password
 - open vnc
 - open you server
