@@ -25,9 +25,22 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - Ubuntu install, next, install vnc and gnome on Ubuntu
 - ```./startubuntu.sh```
 - ```apt update```
-- ```apt install gnome-shell gnome-terminal nautilus gnome-tweaks gnome-shell-extension-ubuntu-dock light-themes suru-icon-theme gedit dbus-x11 tigervnc-standalone-server nano -y``` - installing gnome
+- <details>
+  <summary>Gnome</summary>
+ 
+  ```apt install gnome-shell gnome-terminal nautilus gnome-tweaks gnome-shell-extension-ubuntu-dock light-themes suru-icon-theme gedit dbus-x11 tigervnc-standalone-server nano -y```
+ 
+  </details>
+  <details>
+  <summary>xfce4</summary>
+ 
+  ```apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils tigervnc-standalone-server nano -y```
+ 
+  </details>
+- xfce4 starting script ```wget https://raw.githubusercontent.com/TypedQue/LinuxHLE/master/xstartupxfce4```
 - gnome starting script ```wget https://raw.githubusercontent.com/TypedQue/LinuxHLE/master/xstartuplh```
-- ```chmod +x xstartuplh```
+- ```chmod +x xstartuplh``` - for gnome
+- ```chmod +x xstartupxfce4``` - for xfce4
 - start vnc ```vncserver -localhost no``` and enter any password
 - open RealVNC
 - click plus, in Addres write ```localhost:1```, in name write any name
@@ -43,9 +56,9 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 # Status
 - > ### Pre Release
 
-| Distribution  | XFCE4 | MATE | GNOME | Kde |
-|:-------------- |:------:|:------:|:-:|:-----:|
-| [Ubuntu Jammy (22.04) LTS](https://udroid-rc.gitbook.io/udroid-wiki/suites/ubuntu-22.04) | ✔ | ❌ | ✔ | ✔ |
+| Distribution  | XFCE4 | GNOME |
+|:-------------- |:------:|:------:|
+| [Ubuntu 20.04](https://github.com/TypedQue/LinuxHLE/releases/tag/v2) | ✔, not stable | ✔ |
 
 # Authors
 - TypedQue (team)
