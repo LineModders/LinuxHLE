@@ -1,5 +1,11 @@
 # LinuxHLE
-![App Screenshot](Assets/LinuxHLE.png)
+</div>
+<p align="Center">
+<img src="Assets/LinuxHLE.png" height="300" >
+</p>
+<p align="Center">
+<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
+</p>
 A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCserver!
 ![Screenshot](Assets/ScreenLinuxHLE.png)
 
@@ -33,6 +39,12 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - open you server
 # Shutdown
 - ```vncserver -kill :1```
+# Status
+- > ### Pre Release
+
+| Distribution  | XFCE4 | MATE | GNOME | Kde |
+|:-------------- |:------:|:------:|:-:|:-----:|
+| [Ubuntu Jammy (22.04) LTS](https://udroid-rc.gitbook.io/udroid-wiki/suites/ubuntu-22.04) | ✔ | ❌ | ✔ | ✔ |
 
 # Authors
 - TypedQue (team)
