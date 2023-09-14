@@ -4,8 +4,10 @@
 <img src="Assets/LinuxHLE.png" height="300" >
 </p>
 <p align="Center">
-<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
+<img
+src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
 </p>
+
 <p align="Center">
 A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCserver!
 <img src="Assets/ScreenLinuxHLE.png" height="300" >
