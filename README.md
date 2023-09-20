@@ -17,7 +17,7 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - termux
 - RealVNC
 
-# Installing
+# Manual Installation
 - open termux
 - updating ```pkg update``` (write commands)
 - install wget ```pkg install wget proot -y```
@@ -47,6 +47,12 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - open RealVNC
 - click plus, in Addres write ```localhost:1```, in name write any name
 - done!
+# Automatic Install
+- ```pkg update```
+- ```pkg install wget proot -y```
+- ```wget https://raw.githubusercontent.com/TypedQue/LinuxHLE/master/TuxInstaller/TuxInstall```
+- ```chmod +x TuxInstall```
+
 # Startup
 - ```./startubuntu.sh```
 - ```chmod +x xstartuplh``` - for gnome
