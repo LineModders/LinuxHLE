@@ -1,2 +1,2 @@
 #!/data/data/com.termux/files/usr/bin/bash
-wget -O -
+wget -O - https://raw.githubusercontent.com/TypedQue/LinuxHLE/master/ubuntu.sh
