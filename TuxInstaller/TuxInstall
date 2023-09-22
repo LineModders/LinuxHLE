@@ -1,3 +1,4 @@
+printf '%s\n' 'welcome to TuxInstaller. LinuxHLE has started installation'
 wget https://raw.githubusercontent.com/TypedQue/LinuxHLE/master/ubuntu.sh
 bash ubuntu.sh
 ./startubuntu.sh
