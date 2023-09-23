@@ -16,6 +16,7 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 - 4 gb
 - termux
 - RealVNC
+- Android 11, + (the new version of android)
 
 # Manual Installation
 - open termux
