@@ -81,7 +81,10 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 |:-------------- |:------:|:------:|
 | [Ubuntu 18](https://github.com/TypedQue/LinuxHLE/releases/tag/v1.1.1) | ❌ | ✔ |
 
+# License
+The Mozila Public lecense 2.0
+
 # Authors
-- TypedQue (team)
+- [TypedQue (team)](https://GitHub.com/TypedQue)
 - [@SynthouS](https://youtube.com/SynthouS)
 - @Merryweath
