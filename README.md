@@ -1,7 +1,7 @@
 # LinuxHLE
 </div>
 <p align="Center">
-<img src="Assets/NewLinuxHLE.png" height="300" >
+<img src="Assets/LinuxHLE.png" height="300" >
 </p>
 <p align="Center">
 <img
