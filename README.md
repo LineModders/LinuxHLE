@@ -64,6 +64,12 @@ A High level linux distro "Ubuntu 20" emulator for android using Termux and VNCs
 # Shutdown
 - ```vncserver -kill :1```
 # Status
+- > ### V2.5
+
+| Distribution  | XFCE4 | GNOME |
+|:-------------- |:------:|:------:|
+| [Ubuntu 22.04](https://github.com/TypedQue/LinuxHLE/releases/tag/v2.5) | ✔ | ✔, manual install |
+
 - > ### V2.1
 
 | Distribution  | XFCE4 | GNOME |
