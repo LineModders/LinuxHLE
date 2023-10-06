@@ -9,7 +9,7 @@ src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
 </p>
 
 <p align="Center">
-A High level linux distro "Ubuntu 22" emulator for android using Termux and VNCserver!
+A Ubuntu 22 emulator for android using Termux and VNCserver!
 <img src="Assets/ScreenLinuxHLE.png">
 
 # Req
