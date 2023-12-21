@@ -92,6 +92,6 @@ A Ubuntu 22 emulator for android using Termux and VNCserver!
 The Mozilla Public License 2.0
 
 # Authors
-- [TypedQue (team)](https://GitHub.com/TypedQue)
+- [LineModders (team)](https://GitHub.com/LineModders)
 - [@SynthouS](https://youtube.com/SynthouS)
 - @Merryweath
